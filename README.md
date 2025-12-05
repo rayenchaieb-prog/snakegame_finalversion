@@ -29,36 +29,6 @@ This project is a creative, interactive website that hides a retro snake game be
 - **Analytics**: Vercel Analytics
 - **Type Safety**: TypeScript 5
 
-## Project Structure
-
-\`\`\`
-├── app/
-│   ├── layout.tsx           # Root layout with SecretCodeProvider
-│   ├── page.tsx             # Homepage with hidden hints
-│   └── globals.css          # Global styles and theme configuration
-├── components/
-│   ├── snake-game/          # Game-specific components
-│   │   ├── snake-game.tsx   # Main game logic and rendering
-│   │   ├── secret-code-provider.tsx  # Code activation wrapper
-│   │   ├── game-ui.tsx      # Game UI overlay
-│   │   ├── penguin-renderer.tsx # Penguin visual element
-│   │   ├── particles.tsx    # Particle effects
-│   │   ├── activation-hint.tsx # Hint display
-│   │   └── constants.ts     # Game constants
-│   ├── theme-provider.tsx   # Theme management
-│   └── ui/                  # shadcn/ui components
-├── hooks/
-│   ├── use-secret-code.ts   # Secret code detection hook
-│   ├── use-mobile.tsx       # Mobile detection hook
-│   └── use-toast.ts         # Toast notifications hook
-├── lib/
-│   └── utils.ts             # Utility functions (cn helper)
-└── public/
-    ├── icon.svg             # Main icon
-    ├── icon-light-32x32.png # Light theme icon
-    └── icon-dark-32x32.png  # Dark theme icon
-\`\`\`
-
 ## Getting Started
 
 ### Prerequisites
